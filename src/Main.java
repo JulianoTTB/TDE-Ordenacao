@@ -65,6 +65,7 @@ public class Main {
         System.out.println("Quantidade de interações: " + AlgoritmosOrdenacao.getQtdInteracoes());
         System.out.println();
         vetor2 = new int[]{5, 7, 9, 10, 12, 14, 15, 17, 19, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32};
+        System.out.print("Vetor 2: ");
         imprimirVetor(vetor2, tamanhoDosVetores);
         System.out.print("Vetor 2 depois da ordenação: ");
         imprimirVetor(AlgoritmosOrdenacao.cocktailSort(vetor2, tamanhoDosVetores), tamanhoDosVetores);
